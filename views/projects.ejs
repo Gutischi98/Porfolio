@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main class="container fade-in-up">
+        <h1 style="margin-bottom: 10px; font-size: 3rem; background: var(--gradient-main); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mis Proyectos</h1>
+        <p style="color: #aaa; max-width: 600px; margin-bottom: 40px;">Una combinación de mi experiencia sólida en soporte técnico y mis nuevas creaciones en desarrollo de software.</p>
+        
+        <!-- Sección Soporte -->
+        <h2 class="section-title" style="margin-top: 20px; margin-bottom: 20px; color: var(--highlight-color); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">Experiencia en Soporte & Infraestructura</h2>
+        <div class="project-grid" style="margin-bottom: 60px;">
+            <% projects.support.forEach(project => { %>
+                <article class="project-card">
+                    <img src="<%= project.image %>" alt="<%= project.title %>" class="project-image">
+                    <div class="project-info">
+                        <h3><%= project.title %></h3>
+                        <h4 style="color: var(--accent-color); font-size: 0.9rem; margin-bottom: 10px;"><%= project.role %></h4>
+                        <p><%= project.description %></p>
+                        <div class="project-tags">
+                            <% project.tags.forEach(tag => { %>
+                                <span class="tag"><%= tag %></span>
+                            <% }) %>
+                        </div>
+                        <!-- <a href="<%= project.link %>" class="btn-project">Ver Detalle</a> -->
+                    </div>
+                </article>
+            <% }) %>
+        </div>
+
+        <!-- Sección Desarrollo -->
+        <h2 class="section-title" style="margin-bottom: 20px; color: var(--highlight-color); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">Proyectos de Desarrollo</h2>
+        <div class="project-grid">
+            <% projects.development.forEach(project => { %>
+                <article class="project-card">
+                    <img src="<%= project.image %>" alt="<%= project.title %>" class="project-image">
+                    <div class="project-info">
+                        <h3><%= project.title %></h3>
+                        <p><%= project.description %></p>
+                        <div class="project-tags">
+                            <% project.tags.forEach(tag => { %>
+                                <span class="tag"><%= tag %></span>
+                            <% }) %>
+                        </div>
+                        <a href="<%= project.link %>" class="btn-project">Ver Proyecto</a>
+                    </div>
+                </article>
+            <% }) %>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

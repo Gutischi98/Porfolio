@@ -1,0 +1,58 @@
+{
+  "support": [
+    {
+      "id": "s1",
+      "title": "Poder Judicial de Chile",
+      "role": "Corte de Apelaciones de Concepción",
+      "description": "Soporte técnico especializado para la infraestructura crítica judicial. Gestión de incidencias y mantenimiento de sistemas.",
+      "image": "/imgSoporte/corteDeApelaciones.jpg",
+      "tags": ["Soporte Multi Nivel", "Infraestructura", "Gestión IT", "Ciberseguridad", "Hardware", "Redes", "Windows", "Linux", "MacOS", "Diagnóstico de Sistemas", "Gestión de Incidencias"],
+      "link": "#"
+    },
+    {
+      "id": "s2",
+      "title": "Agencia de Calidad de la Educación",
+      "role": "Soporte Técnico",
+      "description": "Administración de recursos tecnológicos y soporte a usuarios para asegurar la continuidad operativa de las evaluaciones nacionales.",
+      "image": "/imgSoporte/Agencias.jpg",
+      "tags": ["Soporte Usuarios", "Hardware", "Redes"],
+      "link": "#"
+    },
+    {
+      "id": "s3",
+      "title": "Entel",
+      "role": "Soporte Corporativo",
+      "description": "Resolución de incidencias técnicas para clientes corporativos, asegurando SLAs y alta disponibilidad de servicios.",
+      "image": "/imgSoporte/Entel.png",
+      "tags": ["Telecomunicaciones", "Soporte Remoto", "SLA"],
+      "link": "#"
+    },
+    {
+      "id": "s4",
+      "title": "Caja Los Héroes",
+      "role": "Soporte en Terreno",
+      "description": "Mantenimiento preventivo y correctivo de equipos en sucursales, gestión de activos y soporte a plataformas financieras.",
+      "image": "/imgSoporte/LosHeroes.webp",
+      "tags": ["Banca", "Soporte Terreno", "Activos IT"],
+      "link": "#"
+    }
+  ],
+  "development": [
+    {
+      "id": 1,
+      "title": "Web App de retiros de Equipos",
+      "description": "Página web para gestionar retiros de equipos y entregar detalle de los mismos. Esta app se pensó como solución a un problema de logística dentro de la corte de apelaciones, debido a que los equipos se debían declarar de a uno, quitando tiempo. La app entrega un PDF con el detalle de los equipos a retirar para ser entregados a Gendarmería. Se está desarrollando su versión para Android.",
+      "image": "/imgDesarrollos/appRetiros.png",
+      "tags": ["HTML", "CSS", "JS", "Kotlin", "Java", "Node.js", "Express", "Capacitor", "Firebase", "PDFKit", "Netlify"],
+      "link": "https://retirosguti.netlify.app"
+    },
+    {
+      "id": 2,
+      "title": "Este portfolio",
+      "description": "Sitio web personal con desarrollo fullstack básico. Lo presento como proyecto netamente por que es el desarrollo más completo que he realizado.",
+      "image": "/imgDesarrollos/portfolio.png",
+      "tags": ["HTML5", "CSS3", "GSAP", "EJS", "Node.js", "Express"],
+      "link": "#"
+    }
+  ]
+}
