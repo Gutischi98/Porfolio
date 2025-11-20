@@ -51,8 +51,8 @@
       "title": "Este portfolio",
       "description": "Sitio web personal con desarrollo fullstack básico. Lo presento como proyecto netamente por que es el desarrollo más completo que he realizado.",
       "image": "/imgDesarrollos/portfolio.png",
-      "tags": ["HTML5", "CSS3", "GSAP", "EJS", "Node.js", "Express"],
-      "link": "#"
+      "tags": ["HTML5", "CSS3", "GSAP", "EJS", "Node.js", "Express", "Netlify"],
+      "link": "https://gutiportfolio.netlify.app"
     }
   ]
 }
