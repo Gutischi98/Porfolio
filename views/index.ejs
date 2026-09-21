@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <%- include('partials/head') %>
 </head>
+
 <body>
-    <!-- Navbar removed for home page as requested -->
+    <%- include('partials/navbar') %>
 
-    <main>
-        <section class="hero">
-            <h1>Hola, soy Gustavo "Guti" Solar</h1>
-            <p>Desarrollador y Soporte Informático</p>
-            <button id="startBtn" class="btn-start">Comenzar</button>
-        </section>
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="mono-badge">
+                        <span class="dot"></span>
+                        <span>Desarrollo Web Junior & Soporte IT Senior</span>
+                    </div>
+                    <h1>Gustavo "Guti" Solar</h1>
+                    <p>Construyendo aplicaciones web modernas, intuitivas y robustas. Respaldado por años de experiencia
+                        en infraestructura y resolución de problemas de TI.</p>
+                    <div class="hero-actions">
+                        <a href="/projects" class="btn-acid-lime">
+                            <span>Ver Proyectos</span>
+                            <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i>
+                        </a>
+                        <a href="/about" class="btn-ghost">
+                            <span>Conoce más sobre mí</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
-        <div class="home-nav">
-            <div class="home-nav-links">
-                <a href="/">Inicio</a>
-                <a href="/about">Quién Soy</a>
-                <a href="/projects">Proyectos</a>
-                <a href="/contact">Contacto</a>
+            <div class="home-nav">
+                <div class="home-nav-links">
+                    <a href="/">Inicio</a>
+                    <a href="/about">Quién Soy</a>
+                    <a href="/projects">Proyectos</a>
+                    <a href="/contact">Contacto</a>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <%- include('partials/footer') %>
+        <%- include('partials/footer') %>
 </body>
+
 </html>

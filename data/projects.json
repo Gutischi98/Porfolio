@@ -4,7 +4,7 @@
       "id": "s1",
       "title": "Poder Judicial de Chile",
       "role": "Corte de Apelaciones de Concepción",
-      "description": "Soporte técnico especializado para la infraestructura crítica judicial. Gestión de incidencias y mantenimiento de sistemas.",
+      "description": "Soporte técnico especializado para la infraestructura crítica judicial. Gestión de incidencias, administración de redes y mantenimiento preventivo y correctivo de sistemas.",
       "image": "/imgSoporte/corteDeApelaciones.jpg",
       "tags": ["Soporte Multi Nivel", "Infraestructura", "Gestión IT", "Ciberseguridad", "Hardware", "Redes", "Windows", "Linux", "MacOS", "Diagnóstico de Sistemas", "Gestión de Incidencias"],
       "link": "#"
@@ -13,45 +13,65 @@
       "id": "s2",
       "title": "Agencia de Calidad de la Educación",
       "role": "Soporte Técnico",
-      "description": "Administración de recursos tecnológicos y soporte a usuarios para asegurar la continuidad operativa de las evaluaciones nacionales.",
+      "description": "Administración de recursos tecnológicos y soporte integral a usuarios para asegurar la continuidad operativa de las evaluaciones nacionales.",
       "image": "/imgSoporte/Agencias.jpg",
-      "tags": ["Soporte Usuarios", "Hardware", "Redes"],
+      "tags": ["Soporte Usuarios", "Hardware", "Redes", "Gestión de Activos"],
       "link": "#"
     },
     {
       "id": "s3",
       "title": "Entel",
       "role": "Soporte Corporativo",
-      "description": "Resolución de incidencias técnicas para clientes corporativos, asegurando SLAs y alta disponibilidad de servicios.",
+      "description": "Resolución de incidencias técnicas para clientes corporativos de alto perfil, asegurando SLAs rigurosos y alta disponibilidad de servicios de conectividad.",
       "image": "/imgSoporte/Entel.png",
-      "tags": ["Telecomunicaciones", "Soporte Remoto", "SLA"],
+      "tags": ["Telecomunicaciones", "Soporte Remoto", "SLA", "Atención Corporativa"],
       "link": "#"
     },
     {
       "id": "s4",
       "title": "Caja Los Héroes",
       "role": "Soporte en Terreno",
-      "description": "Mantenimiento preventivo y correctivo de equipos en sucursales, gestión de activos y soporte a plataformas financieras.",
+      "description": "Mantenimiento preventivo y correctivo de equipamiento informático en sucursales, gestión de inventario tecnológico y soporte a sistemas financieros.",
       "image": "/imgSoporte/LosHeroes.webp",
-      "tags": ["Banca", "Soporte Terreno", "Activos IT"],
+      "tags": ["Sistemas Financieros", "Soporte Terreno", "Activos IT", "Mantenimiento"],
       "link": "#"
     }
   ],
   "development": [
     {
       "id": 1,
-      "title": "Web App de retiros de Equipos",
-      "description": "Página web para gestionar retiros de equipos y entregar detalle de los mismos. Esta app se pensó como solución a un problema de logística dentro de la corte de apelaciones, debido a que los equipos se debían declarar de a uno, quitando tiempo. La app entrega un PDF con el detalle de los equipos a retirar para ser entregados a Gendarmería. Se está desarrollando su versión para Android.",
-      "image": "/imgDesarrollos/appRetiros.png",
-      "tags": ["HTML", "CSS", "JS", "Kotlin", "Java", "Node.js", "Express", "Capacitor", "Firebase", "PDFKit", "Netlify"],
-      "link": "https://retirosguti.netlify.app"
+      "title": "Vivero Quintral",
+      "type": "Landing Page",
+      "description": "Landing Page institucional y comercial moderna para Vivero Quintral (50+ años de trayectoria). Producción propia en Negrete, salas de venta en Concepción y Los Ángeles, cotizaciones B2B y despachos a regiones.",
+      "image": "/imgDesarrollos/quintral.jpg",
+      "tags": ["React", "Vite", "Tailwind CSS", "TypeScript", "Landing Page", "SEO Local", "Schema.org", "WhatsApp API"],
+      "link": "https://quintral.cl"
     },
     {
       "id": 2,
-      "title": "Este portfolio",
-      "description": "Sitio web personal con desarrollo fullstack básico. Lo presento como proyecto netamente por que es el desarrollo más completo que he realizado.",
+      "title": "Fata ArtiGene",
+      "type": "Web App / E-Commerce",
+      "description": "E-Commerce & Catálogo interactivo de papelería artística, stickers, imanes y estampados personalizados. Incluye filtro por categorías, buscador en tiempo real, carrito de compras desplegable, modo claro/oscuro y backend integrado con PostgreSQL.",
+      "image": "/imgDesarrollos/fataartigene.jpg",
+      "tags": ["React", "Vite", "Tailwind CSS", "PostgreSQL", "JavaScript (ES6+)", "Node.js", "Netlify"],
+      "link": "https://fataartigene.netlify.app"
+    },
+    {
+      "id": 3,
+      "title": "Web App de Retiros de Equipos",
+      "type": "Web App & Mobile App",
+      "description": "Plataforma web y móvil para gestionar la logística de retiros de equipos informáticos en la Corte de Apelaciones. Automatiza la generación de actas en PDF para fiscalización de Gendarmería y cuenta con versión nativa Android.",
+      "image": "/imgDesarrollos/appRetiros.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "Kotlin", "Java", "Node.js", "Express", "Capacitor", "Firebase", "PDFKit", "Netlify"],
+      "link": "https://retirosguti.netlify.app"
+    },
+    {
+      "id": 4,
+      "title": "Portafolio Personal",
+      "type": "Web Site",
+      "description": "Sitio web personal desarrollado con Node.js, Express y EJS, renderizado estáticamente para un rendimiento óptimo. Diseñado bajo el sistema de diseño Linear precision instrument.",
       "image": "/imgDesarrollos/portfolio.png",
-      "tags": ["HTML5", "CSS3", "GSAP", "EJS", "Node.js", "Express", "Netlify"],
+      "tags": ["HTML5", "CSS3", "JavaScript (ES6+)", "EJS", "Node.js", "Express", "Linear Design", "Netlify"],
       "link": "https://gutiportfolio.netlify.app"
     }
   ]
